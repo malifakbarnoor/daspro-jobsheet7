@@ -24,6 +24,8 @@ public class SiakadFor13 {
             }
         }   System.out.println("nilai tertinggi: " + tertinggi);
             System.out.println("nilai terendah: " + terendah);
+            System.out.println("Jumlah siswa lulus: " + lulus);
+            System.out.println("Jumlah siswa tidak lulus: " + tidakLulus);
     }       
 
 }
