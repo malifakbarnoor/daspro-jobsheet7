@@ -15,11 +15,12 @@ public class SiakadWhile13 {
             nilai = sc.nextInt();
 
             if(nilai < 0 || nilai > 100) {
-                System.out.print("Nilai tidak valid. Masukkan lagi nilai yang valid!");
+                System.out.println("Nilai tidak valid. Masukkan lagi nilai yang valid!");
                 continue;
             }
             if(nilai > 80 && nilai <= 100) {
                 System.out.println("Nilai mahasiswa ke-" + (i + 1) + " Adalah A");
+                System.out.println("Bagus, Pertahankan nilainya!");
             } else if(nilai > 73 && nilai <= 80) {
                 System.out.println("Nilai mahasiswa ke-" + (i + 1) + " Adalah B+");
             } else if(nilai > 65 && nilai <= 73) {
